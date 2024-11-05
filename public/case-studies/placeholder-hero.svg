@@ -1,0 +1,11 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#131314"/>
+  <rect width="1920" height="1080" fill="url(#heroGradient)" fill-opacity="0.1"/>
+  <defs>
+    <linearGradient id="heroGradient" x1="0" y1="0" x2="1920" y2="1080">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="50%" stop-color="#FF3DFF"/>
+      <stop offset="100%" stop-color="#7000FF"/>
+    </linearGradient>
+  </defs>
+</svg> 

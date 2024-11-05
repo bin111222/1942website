@@ -1,0 +1,14 @@
+<svg width="400" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" rx="8" fill="#131314"/>
+  <text x="200" y="100" font-family="Montserrat" font-size="32" font-weight="bold" fill="#00D4FF" text-anchor="middle" dominant-baseline="middle">
+    The Sculptique
+  </text>
+  <rect x="1" y="1" width="398" height="198" rx="7" stroke="url(#gradient)" stroke-width="2"/>
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="400" y2="200">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="50%" stop-color="#FF3DFF"/>
+      <stop offset="100%" stop-color="#7000FF"/>
+    </linearGradient>
+  </defs>
+</svg> 

@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: #080809;
+  color: #EAEAEA;
+}
+
+/* Ensure proper REM scaling */
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+.dark-glass {
+  background: rgba(19, 19, 20, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.grid-bg {
+  background-size: 30px 30px;
+  background-image: linear-gradient(to right, #1a1a1a 1px, transparent 1px),
+                    linear-gradient(to bottom, #1a1a1a 1px, transparent 1px);
+}
+
+.glow {
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.15);
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+}
+
+.gradient-border {
+  position: relative;
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: inherit;
+  background: linear-gradient(45deg, #00D4FF, #FF3DFF, #7000FF);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes borderPulse {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.floating {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.pulsing {
+  animation: pulse 4s ease-in-out infinite;
+}
+
+:root {
+  --accent-primary: #00D4FF;
+  --accent-secondary: #FF3DFF;
+  --accent-tertiary: #7000FF;
+}
+
+@keyframes glow {
+  0%, 100% { filter: drop-shadow(0 0 15px var(--accent-primary)); }
+  50% { filter: drop-shadow(0 0 25px var(--accent-secondary)); }
+}
+
+.glowing {
+  animation: glow 4s ease-in-out infinite;
+}
+
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add better transitions */
+* {
+  transition: all 0.3s ease-in-out;
+}
