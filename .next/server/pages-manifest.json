@@ -1,6 +1,14 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
+  "/case-studies/[slug]": "pages/case-studies/[slug].html",
+  "/contact": "pages/contact.html",
+  "/services": "pages/services.html",
+  "/": "pages/index.html",
+  "/work/[slug]": "pages/work/[slug].html",
+  "/case-studies": "pages/case-studies.html",
+  "/work": "pages/work.html",
+  "/about": "pages/about.html",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }

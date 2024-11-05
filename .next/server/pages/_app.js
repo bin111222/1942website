@@ -1,100 +1,213 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
+"use strict";
 (() => {
 var exports = {};
-exports.id = "pages/_app";
-exports.ids = ["pages/_app"];
+exports.id = 888;
+exports.ids = [888];
 exports.modules = {
 
-/***/ "./components/CustomCursor.js":
-/*!************************************!*\
-  !*** ./components/CustomCursor.js ***!
-  \************************************/
+/***/ 109:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ CustomCursor)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! framer-motion */ \"framer-motion\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_2__]);\nframer_motion__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\nfunction CustomCursor() {\n    const { 0: mousePosition , 1: setMousePosition  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)({\n        x: 0,\n        y: 0\n    });\n    const { 0: isHovering , 1: setIsHovering  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        const handleMouseMove = (e)=>{\n            setMousePosition({\n                x: e.clientX,\n                y: e.clientY\n            });\n        };\n        const handleHoverStart = ()=>setIsHovering(true);\n        const handleHoverEnd = ()=>setIsHovering(false);\n        window.addEventListener(\"mousemove\", handleMouseMove);\n        document.querySelectorAll(\"a, button\").forEach((element)=>{\n            element.addEventListener(\"mouseenter\", handleHoverStart);\n            element.addEventListener(\"mouseleave\", handleHoverEnd);\n        });\n        return ()=>{\n            window.removeEventListener(\"mousemove\", handleMouseMove);\n            document.querySelectorAll(\"a, button\").forEach((element)=>{\n                element.removeEventListener(\"mouseenter\", handleHoverStart);\n                element.removeEventListener(\"mouseleave\", handleHoverEnd);\n            });\n        };\n    }, []);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {\n                className: \"fixed top-0 left-0 w-4 h-4 rounded-full bg-accent-primary pointer-events-none z-50 mix-blend-difference\",\n                animate: {\n                    x: mousePosition.x - 8,\n                    y: mousePosition.y - 8,\n                    scale: isHovering ? 2 : 1\n                },\n                transition: {\n                    type: \"spring\",\n                    stiffness: 500,\n                    damping: 28\n                }\n            }, void 0, false, {\n                fileName: \"/Users/varilshah/Desktop/Apps/code Website 1942/components/CustomCursor.js\",\n                lineNumber: 33,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {\n                className: \"fixed top-0 left-0 w-8 h-8 rounded-full border border-accent-primary pointer-events-none z-50 opacity-50\",\n                animate: {\n                    x: mousePosition.x - 16,\n                    y: mousePosition.y - 16,\n                    scale: isHovering ? 1.5 : 1\n                },\n                transition: {\n                    type: \"spring\",\n                    stiffness: 300,\n                    damping: 20\n                }\n            }, void 0, false, {\n                fileName: \"/Users/varilshah/Desktop/Apps/code Website 1942/components/CustomCursor.js\",\n                lineNumber: 42,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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anM/YTgwNCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnXG5pbXBvcnQgeyBtb3Rpb24gfSBmcm9tICdmcmFtZXItbW90aW9uJ1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBDdXN0b21DdXJzb3IoKSB7XG4gIGNvbnN0IFttb3VzZVBvc2l0aW9uLCBzZXRNb3VzZVBvc2l0aW9uXSA9IHVzZVN0YXRlKHsgeDogMCwgeTogMCB9KVxuICBjb25zdCBbaXNIb3ZlcmluZywgc2V0SXNIb3ZlcmluZ10gPSB1c2VTdGF0ZShmYWxzZSlcblxuICB1c2VFZmZlY3QoKCkgPT4ge1xuICAgIGNvbnN0IGhhbmRsZU1vdXNlTW92ZSA9IChlKSA9PiB7XG4gICAgICBzZXRNb3VzZVBvc2l0aW9uKHsgeDogZS5jbGllbnRYLCB5OiBlLmNsaWVudFkgfSlcbiAgICB9XG5cbiAgICBjb25zdCBoYW5kbGVIb3ZlclN0YXJ0ID0gKCkgPT4gc2V0SXNIb3ZlcmluZyh0cnVlKVxuICAgIGNvbnN0IGhhbmRsZUhvdmVyRW5kID0gKCkgPT4gc2V0SXNIb3ZlcmluZyhmYWxzZSlcblxuICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdtb3VzZW1vdmUnLCBoYW5kbGVNb3VzZU1vdmUpXG4gICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnYSwgYnV0dG9uJykuZm9yRWFjaChlbGVtZW50ID0+IHtcbiAgICAgIGVsZW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignbW91c2VlbnRlcicsIGhhbmRsZUhvdmVyU3RhcnQpXG4gICAgICBlbGVtZW50LmFkZEV2ZW50TGlzdGVuZXIoJ21vdXNlbGVhdmUnLCBoYW5kbGVIb3ZlckVuZClcbiAgICB9KVxuXG4gICAgcmV0dXJuICgpID0+IHtcbiAgICAgIHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKCdtb3VzZW1vdmUnLCBoYW5kbGVNb3VzZU1vdmUpXG4gICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdhLCBidXR0b24nKS5mb3JFYWNoKGVsZW1lbnQgPT4ge1xuICAgICAgICBlbGVtZW50LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ21vdXNlZW50ZXInLCBoYW5kbGVIb3ZlclN0YXJ0KVxuICAgICAgICBlbGVtZW50LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ21vdXNlbGVhdmUnLCBoYW5kbGVIb3ZlckVuZClcbiAgICAgIH0pXG4gICAgfVxuICB9LCBbXSlcblxuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8bW90aW9uLmRpdlxuICAgICAgICBjbGFzc05hbWU9XCJmaXhlZCB0b3AtMCBsZWZ0LTAgdy00IGgtNCByb3VuZGVkLWZ1bGwgYmctYWNjZW50LXByaW1hcnkgcG9pbnRlci1ldmVudHMtbm9uZSB6LTUwIG1peC1ibGVuZC1kaWZmZXJlbmNlXCJcbiAgICAgICAgYW5pbWF0ZT17e1xuICAgICAgICAgIHg6IG1vdXNlUG9zaXRpb24ueCAtIDgsXG4gICAgICAgICAgeTogbW91c2VQb3NpdGlvbi55IC0gOCxcbiAgICAgICAgICBzY2FsZTogaXNIb3ZlcmluZyA/IDIgOiAxXG4gICAgICAgIH19XG4gICAgICAgIHRyYW5zaXRpb249e3sgdHlwZTogXCJzcHJpbmdcIiwgc3RpZmZuZXNzOiA1MDAsIGRhbXBpbmc6IDI4IH19XG4gICAgICAvPlxuICAgICAgPG1vdGlvbi5kaXZcbiAgICAgICAgY2xhc3NOYW1lPVwiZml4ZWQgdG9wLTAgbGVmdC0wIHctOCBoLTggcm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItYWNjZW50LXByaW1hcnkgcG9pbnRlci1ldmVudHMtbm9uZSB6LTUwIG9wYWNpdHktNTBcIlxuICAgICAgICBhbmltYXRlPXt7XG4gICAgICAgICAgeDogbW91c2VQb3NpdGlvbi54IC0gMTYsXG4gICAgICAgICAgeTogbW91c2VQb3NpdGlvbi55IC0gMTYsXG4gICAgICAgICAgc2NhbGU6IGlzSG92ZXJpbmcgPyAxLjUgOiAxXG4gICAgICAgIH19XG4gICAgICAgIHRyYW5zaXRpb249e3sgdHlwZTogXCJzcHJpbmdcIiwgc3RpZmZuZXNzOiAzMDAsIGRhbXBpbmc6IDIwIH19XG4gICAgICAvPlxuICAgIDwvPlxuICApXG59ICJdLCJuYW1lcyI6WyJ1c2VFZmZlY3QiLCJ1c2VTdGF0ZSIsIm1vdGlvbiIsIkN1c3RvbUN1cnNvciIsIm1vdXNlUG9zaXRpb24iLCJzZXRNb3VzZVBvc2l0aW9uIiwieCIsInkiLCJpc0hvdmVyaW5nIiwic2V0SXNIb3ZlcmluZyIsImhhbmRsZU1vdXNlTW92ZSIsImUiLCJjbGllbnRYIiwiY2xpZW50WSIsImhhbmRsZUhvdmVyU3RhcnQiLCJoYW5kbGVIb3ZlckVuZCIsIndpbmRvdyIsImFkZEV2ZW50TGlzdGVuZXIiLCJkb2N1bWVudCIsInF1ZXJ5U2VsZWN0b3JBbGwiLCJmb3JFYWNoIiwiZWxlbWVudCIsInJlbW92ZUV2ZW50TGlzdGVuZXIiLCJkaXYiLCJjbGFzc05hbWUiLCJhbmltYXRlIiwic2NhbGUiLCJ0cmFuc2l0aW9uIiwidHlwZSIsInN0aWZmbmVzcyIsImRhbXBpbmciXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/CustomCursor.js\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (/* binding */ CustomCursor)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6197);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_2__]);
+framer_motion__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+
+function CustomCursor() {
+    const { 0: mousePosition , 1: setMousePosition  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)({
+        x: 0,
+        y: 0
+    });
+    const { 0: isHovering , 1: setIsHovering  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        const handleMouseMove = (e)=>{
+            setMousePosition({
+                x: e.clientX,
+                y: e.clientY
+            });
+        };
+        const handleHoverStart = ()=>setIsHovering(true);
+        const handleHoverEnd = ()=>setIsHovering(false);
+        window.addEventListener("mousemove", handleMouseMove);
+        document.querySelectorAll("a, button").forEach((element)=>{
+            element.addEventListener("mouseenter", handleHoverStart);
+            element.addEventListener("mouseleave", handleHoverEnd);
+        });
+        return ()=>{
+            window.removeEventListener("mousemove", handleMouseMove);
+            document.querySelectorAll("a, button").forEach((element)=>{
+                element.removeEventListener("mouseenter", handleHoverStart);
+                element.removeEventListener("mouseleave", handleHoverEnd);
+            });
+        };
+    }, []);
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {
+                className: "fixed top-0 left-0 w-4 h-4 rounded-full bg-accent-primary pointer-events-none z-50 mix-blend-difference",
+                animate: {
+                    x: mousePosition.x - 8,
+                    y: mousePosition.y - 8,
+                    scale: isHovering ? 2 : 1
+                },
+                transition: {
+                    type: "spring",
+                    stiffness: 500,
+                    damping: 28
+                }
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {
+                className: "fixed top-0 left-0 w-8 h-8 rounded-full border border-accent-primary pointer-events-none z-50 opacity-50",
+                animate: {
+                    x: mousePosition.x - 16,
+                    y: mousePosition.y - 16,
+                    scale: isHovering ? 1.5 : 1
+                },
+                transition: {
+                    type: "spring",
+                    stiffness: 300,
+                    damping: 20
+                }
+            })
+        ]
+    });
+}
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "./components/PageTransition.js":
-/*!**************************************!*\
-  !*** ./components/PageTransition.js ***!
-  \**************************************/
+/***/ 9492:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ PageTransition)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! framer-motion */ \"framer-motion\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_1__]);\nframer_motion__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\nfunction PageTransition({ children  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.div, {\n        initial: {\n            opacity: 0,\n            y: 20\n        },\n        animate: {\n            opacity: 1,\n            y: 0\n        },\n        exit: {\n            opacity: 0,\n            y: -20\n        },\n        transition: {\n            duration: 0.5\n        },\n        children: children\n    }, void 0, false, {\n        fileName: \"/Users/varilshah/Desktop/Apps/code Website 1942/components/PageTransition.js\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, this);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL1BhZ2VUcmFuc2l0aW9uLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBQTtBQUFzQztBQUV2QixTQUFTQyxjQUFjLENBQUMsRUFBRUMsUUFBUSxHQUFFLEVBQUU7SUFDbkQscUJBQ0UsOERBQUNGLHFEQUFVO1FBQ1RJLE9BQU8sRUFBRTtZQUFFQyxPQUFPLEVBQUUsQ0FBQztZQUFFQyxDQUFDLEVBQUUsRUFBRTtTQUFFO1FBQzlCQyxPQUFPLEVBQUU7WUFBRUYsT0FBTyxFQUFFLENBQUM7WUFBRUMsQ0FBQyxFQUFFLENBQUM7U0FBRTtRQUM3QkUsSUFBSSxFQUFFO1lBQUVILE9BQU8sRUFBRSxDQUFDO1lBQUVDLENBQUMsRUFBRSxDQUFDLEVBQUU7U0FBRTtRQUM1QkcsVUFBVSxFQUFFO1lBQUVDLFFBQVEsRUFBRSxHQUFHO1NBQUU7a0JBRTVCUixRQUFROzs7OztZQUNFLENBQ2Q7QUFDSCxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vMTk0Mi1zdHVkaW8td2Vic2l0ZS8uL2NvbXBvbmVudHMvUGFnZVRyYW5zaXRpb24uanM/ZTQ2NCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBtb3Rpb24gfSBmcm9tICdmcmFtZXItbW90aW9uJ1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBQYWdlVHJhbnNpdGlvbih7IGNoaWxkcmVuIH0pIHtcbiAgcmV0dXJuIChcbiAgICA8bW90aW9uLmRpdlxuICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB5OiAyMCB9fVxuICAgICAgYW5pbWF0ZT17eyBvcGFjaXR5OiAxLCB5OiAwIH19XG4gICAgICBleGl0PXt7IG9wYWNpdHk6IDAsIHk6IC0yMCB9fVxuICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC41IH19XG4gICAgPlxuICAgICAge2NoaWxkcmVufVxuICAgIDwvbW90aW9uLmRpdj5cbiAgKVxufSAiXSwibmFtZXMiOlsibW90aW9uIiwiUGFnZVRyYW5zaXRpb24iLCJjaGlsZHJlbiIsImRpdiIsImluaXRpYWwiLCJvcGFjaXR5IiwieSIsImFuaW1hdGUiLCJleGl0IiwidHJhbnNpdGlvbiIsImR1cmF0aW9uIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/PageTransition.js\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (/* binding */ PageTransition)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6197);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_1__]);
+framer_motion__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+function PageTransition({ children  }) {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.div, {
+        initial: {
+            opacity: 0,
+            y: 20
+        },
+        animate: {
+            opacity: 1,
+            y: 0
+        },
+        exit: {
+            opacity: 0,
+            y: -20
+        },
+        transition: {
+            duration: 0.5
+        },
+        children: children
+    });
+}
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "./pages/_app.js":
-/*!***********************!*\
-  !*** ./pages/_app.js ***!
-  \***********************/
+/***/ 8510:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! framer-motion */ \"framer-motion\");\n/* harmony import */ var _components_CustomCursor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/CustomCursor */ \"./components/CustomCursor.js\");\n/* harmony import */ var _components_PageTransition__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/PageTransition */ \"./components/PageTransition.js\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_5__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_1__, _components_CustomCursor__WEBPACK_IMPORTED_MODULE_2__, _components_PageTransition__WEBPACK_IMPORTED_MODULE_3__]);\n([framer_motion__WEBPACK_IMPORTED_MODULE_1__, _components_CustomCursor__WEBPACK_IMPORTED_MODULE_2__, _components_PageTransition__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);\n\n\n\n\n\n\nfunction MyApp({ Component , pageProps , router  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_4___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"viewport\",\n                        content: \"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"\n                    }, void 0, false, {\n                        fileName: \"/Users/varilshah/Desktop/Apps/code Website 1942/pages/_app.js\",\n                        lineNumber: 11,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"theme-color\",\n                        content: \"#000000\"\n                    }, void 0, false, {\n                        fileName: \"/Users/varilshah/Desktop/Apps/code Website 1942/pages/_app.js\",\n                        lineNumber: 12,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/varilshah/Desktop/Apps/code Website 1942/pages/_app.js\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_CustomCursor__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                fileName: \"/Users/varilshah/Desktop/Apps/code Website 1942/pages/_app.js\",\n                lineNumber: 14,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.AnimatePresence, {\n                mode: \"wait\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_PageTransition__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                        ...pageProps\n                    }, void 0, false, {\n                        fileName: \"/Users/varilshah/Desktop/Apps/code Website 1942/pages/_app.js\",\n                        lineNumber: 17,\n                        columnNumber: 11\n                    }, this)\n                }, router.route, false, {\n                    fileName: \"/Users/varilshah/Desktop/Apps/code Website 1942/pages/_app.js\",\n                    lineNumber: 16,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"/Users/varilshah/Desktop/Apps/code Website 1942/pages/_app.js\",\n                lineNumber: 15,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUErQztBQUNNO0FBQ0k7QUFDN0I7QUFDRTtBQUU5QixTQUFTSSxLQUFLLENBQUMsRUFBRUMsU0FBUyxHQUFFQyxTQUFTLEdBQUVDLE1BQU0sR0FBRSxFQUFFO0lBQy9DLHFCQUNFOzswQkFDRSw4REFBQ0osa0RBQUk7O2tDQUNILDhEQUFDSyxNQUFJO3dCQUFDQyxJQUFJLEVBQUMsVUFBVTt3QkFBQ0MsT0FBTyxFQUFDLDRFQUE0RTs7Ozs7NEJBQUc7a0NBQzdHLDhEQUFDRixNQUFJO3dCQUFDQyxJQUFJLEVBQUMsYUFBYTt3QkFBQ0MsT0FBTyxFQUFDLFNBQVM7Ozs7OzRCQUFHOzs7Ozs7b0JBQ3hDOzBCQUNQLDhEQUFDVCxnRUFBWTs7OztvQkFBRzswQkFDaEIsOERBQUNELDBEQUFlO2dCQUFDVyxJQUFJLEVBQUMsTUFBTTswQkFDMUIsNEVBQUNULGtFQUFjOzhCQUNiLDRFQUFDRyxTQUFTO3dCQUFFLEdBQUdDLFNBQVM7Ozs7OzRCQUFJO21CQURUQyxNQUFNLENBQUNLLEtBQUs7Ozs7d0JBRWhCOzs7OztvQkFDRDs7b0JBQ2pCLENBQ0o7QUFDSCxDQUFDO0FBRUQsaUVBQWVSLEtBQUsiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8xOTQyLXN0dWRpby13ZWJzaXRlLy4vcGFnZXMvX2FwcC5qcz9lMGFkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEFuaW1hdGVQcmVzZW5jZSB9IGZyb20gJ2ZyYW1lci1tb3Rpb24nXG5pbXBvcnQgQ3VzdG9tQ3Vyc29yIGZyb20gJy4uL2NvbXBvbmVudHMvQ3VzdG9tQ3Vyc29yJ1xuaW1wb3J0IFBhZ2VUcmFuc2l0aW9uIGZyb20gJy4uL2NvbXBvbmVudHMvUGFnZVRyYW5zaXRpb24nXG5pbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnXG5pbXBvcnQgJy4uL3N0eWxlcy9nbG9iYWxzLmNzcydcblxuZnVuY3Rpb24gTXlBcHAoeyBDb21wb25lbnQsIHBhZ2VQcm9wcywgcm91dGVyIH0pIHtcbiAgcmV0dXJuIChcbiAgICA8PlxuICAgICAgPEhlYWQ+XG4gICAgICAgIDxtZXRhIG5hbWU9XCJ2aWV3cG9ydFwiIGNvbnRlbnQ9XCJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MS4wLCBtYXhpbXVtLXNjYWxlPTEuMCwgdXNlci1zY2FsYWJsZT1ub1wiIC8+XG4gICAgICAgIDxtZXRhIG5hbWU9XCJ0aGVtZS1jb2xvclwiIGNvbnRlbnQ9XCIjMDAwMDAwXCIgLz5cbiAgICAgIDwvSGVhZD5cbiAgICAgIDxDdXN0b21DdXJzb3IgLz5cbiAgICAgIDxBbmltYXRlUHJlc2VuY2UgbW9kZT1cIndhaXRcIj5cbiAgICAgICAgPFBhZ2VUcmFuc2l0aW9uIGtleT17cm91dGVyLnJvdXRlfT5cbiAgICAgICAgICA8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+XG4gICAgICAgIDwvUGFnZVRyYW5zaXRpb24+XG4gICAgICA8L0FuaW1hdGVQcmVzZW5jZT5cbiAgICA8Lz5cbiAgKVxufVxuXG5leHBvcnQgZGVmYXVsdCBNeUFwcCAiXSwibmFtZXMiOlsiQW5pbWF0ZVByZXNlbmNlIiwiQ3VzdG9tQ3Vyc29yIiwiUGFnZVRyYW5zaXRpb24iLCJIZWFkIiwiTXlBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiLCJyb3V0ZXIiLCJtZXRhIiwibmFtZSIsImNvbnRlbnQiLCJtb2RlIiwicm91dGUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6197);
+/* harmony import */ var _components_CustomCursor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(109);
+/* harmony import */ var _components_PageTransition__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9492);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(968);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_4__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_1__, _components_CustomCursor__WEBPACK_IMPORTED_MODULE_2__, _components_PageTransition__WEBPACK_IMPORTED_MODULE_3__]);
+([framer_motion__WEBPACK_IMPORTED_MODULE_1__, _components_CustomCursor__WEBPACK_IMPORTED_MODULE_2__, _components_PageTransition__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+
+
+
+
+
+
+function MyApp({ Component , pageProps , router  }) {
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+        children: [
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_4___default()), {
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                        name: "viewport",
+                        content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                        name: "theme-color",
+                        content: "#000000"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_CustomCursor__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {}),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_1__.AnimatePresence, {
+                mode: "wait",
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_PageTransition__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Component, {
+                        ...pageProps
+                    })
+                }, router.route)
+            })
+        ]
+    });
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "./styles/globals.css":
-/*!****************************!*\
-  !*** ./styles/globals.css ***!
-  \****************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
+/***/ 968:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/head");
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 6689:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("react");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "framer-motion":
-/*!********************************!*\
-  !*** external "framer-motion" ***!
-  \********************************/
+/***/ 6197:
 /***/ ((module) => {
 
-"use strict";
 module.exports = import("framer-motion");;
 
 /***/ })
@@ -106,7 +219,7 @@ module.exports = import("framer-motion");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
+var __webpack_exports__ = (__webpack_exec__(8510));
 module.exports = __webpack_exports__;
 
 })();
